@@ -12,8 +12,10 @@ void main (){
   print("The diff is $diff");
   print("The mul is $mul");
   print("The div is $div");
-  print("Enter number:");
-  int? number = int.parse(stdin.readLineSync()!);
-  print("The entered number is ${number}");
-  print("Full name is $firstName $lastName");
-}
+  }
+
+output:
+The sum is 13
+The diff is 7
+The mul is 30
+The div is 3.3333333333333335
